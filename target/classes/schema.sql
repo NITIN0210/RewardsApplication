@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS customer (customer_id INT NOT NULL AUTO_INCREMENT, name VARCHAR(255), PRIMARY KEY (customer_id));
+
+CREATE TABLE IF NOT EXISTS Transaction (transaction_id INT NOT NULL AUTO_INCREMENT, customer_id INT NOT NULL, date TIMESTAMP NOT NULL, amount INT NOT NULL, CONSTRAINT FK_TRANS_CUSTOMER FOREIGN KEY (customer_id) REFERENCES customer(customer_id));
+
