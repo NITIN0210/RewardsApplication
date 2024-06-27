@@ -17,7 +17,7 @@
   
 ### Sample Rest Request
 Customer 2: This customer has a few transactins over the months 2023-05 to 2023-07
-#### URL
+- #### URL
 GET 'http://localhost:8080/api/rewards/for-customer/2?startMonth=2023-05&endMonth=2023-07)' 
 
 - This returns a JSON object of the customer 2's month wise rewards
