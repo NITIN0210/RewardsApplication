@@ -23,7 +23,12 @@ GET 'http://localhost:8080/api/rewards/for-customer/2?startMonth=2023-05&endMont
 - This returns a JSON object of the customer 2's month wise rewards
 - If not valid customer or invalid date range respective error will be returned.
 
-##### For more Rest endpoints see the documentation by folllowing the step below
+-  ### There are total 3 Controllers
+    1. to manage Customer CRUD
+    2. to manage Transaction CRUD
+    3. To manage Reward Calculation
+
+##### For more details on Rest endpoints see the documentation by folllowing the step below
 - Swagger Documentation URI
 - Access the Swagger documentation for the API endpoints at:
      ` http://localhost:8080/swagger-ui/index.html `
